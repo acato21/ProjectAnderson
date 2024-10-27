@@ -9,8 +9,8 @@ interface Props{
 
 export function Input(props: Props){
     return (
-        <div>
-            <label htmlFor={props.index}>{props.label}</label>
+        <div className={styles.body}>
+            <label className={styles.label} htmlFor={props.index}>{props.label}:</label>
             <input className={styles.input} type={props.type} id={props.index}/>
         </div>
     )

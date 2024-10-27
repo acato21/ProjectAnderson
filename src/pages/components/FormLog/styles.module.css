@@ -1,0 +1,47 @@
+.formlog{
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+
+    min-height: 100vh;
+}
+
+.wrapper{
+    width: 40rem;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 5rem;
+    padding: 4rem 2rem;
+    border-radius: .8rem;
+
+    background: white;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem
+}
+
+.wrapper h1 {
+    align-self: center;
+    margin-bottom: 1.6rem;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 4rem;
+    gap: 4rem;
+}
+
+.link {
+    font-size: 1.6rem;
+    color: #007bff;
+}
