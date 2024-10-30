@@ -19,8 +19,9 @@ interface PropsLink{
 interface Props{
     title: string;
     inputs: PropsInput[];
-    button: string;
-    links: PropsLink[]
+    btnTitle: string;
+    btnLink: string;
+    links: PropsLink[];
 }
 
 export function FormLog(props: Props) {
@@ -51,7 +52,7 @@ export function FormLog(props: Props) {
                 <form action="" className={styles.form}>
                     {renderInput()}
 
-                    <Button title={props.button} link="/"/>
+                    <Button title={props.btnTitle} link={props.btnLink}/>
                 </form>
 
                 <div className={styles.links}>

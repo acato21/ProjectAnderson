@@ -26,7 +26,7 @@ export default function Register(){
                 {router: '/Login', title: 'Voltar para login'}
              ]}
 
-            button="Cadastrar" />
+            btnTitle="Cadastrar" btnLink="/Login"/>
         </div>
     )
 }

@@ -14,11 +14,11 @@ export default function Login(){
              }
 
              links={[
-                {router: '/RecoverPassword', title: 'Esqueci minha senha'},
+                {router: '/ForgotPassword', title: 'Esqueci minha senha'},
                 {router: '/Register', title: 'Criar conta'}
              ]}
 
-            button="Entrar" />
+            btnTitle="Entrar" btnLink="/Home"/>
         </div>
     )
 }
