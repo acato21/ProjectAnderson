@@ -15,7 +15,9 @@ export default function ForgotPassword(){
                 {router: '/Login', title: 'Voltar para login'}
              ]}
 
-            button="Enviar link de recuperação" />
+            btnTitle="Enviar link de recuperação" 
+            btnLink="/Login"
+            />
         </div>
     )
 }

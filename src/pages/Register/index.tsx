@@ -1,14 +1,6 @@
 import { FormLog } from "../components/FormLog"
 
 export default function Register(){
-
-    const inputs = [
-        {type: 'text', label: 'Nome'},
-        {type: 'email', label: 'Email'},
-        {type: 'password', label: 'Senha'},
-        {type: 'password', label: 'Confirmar Senha'},
-    ]
-
     return(
         <div>
             <FormLog 
